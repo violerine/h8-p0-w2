@@ -1,0 +1,71 @@
+1. Newton Second Law
+
+STORE "m" with 600
+STORE "a" with 2
+STORE "F" without any value
+
+CALCULATE "m" times "a"
+SET "F" value with calculation result
+
+DISPLAY value of "F" 
+
+JS : 
+var m = 600
+var a = 2
+var f = m*a
+console.log(f)
+
+
+2. Tahun kabisat 
+
+STORE "x" with any value (ex 2018)
+IF "x" mod 4 equal to 0 AND "x" mod 100 not equal to 0
+DISPLAY true
+
+IF "x" mod 4 equal to 0 AND "x" mod 100 equal to 0 AND "x" mod 400
+equal to 0
+DISPLAY true
+
+ELSE DISPLAY false
+
+JS : 
+x=2018
+if(x%4==0 && x%100!==0){
+    console.log(true)
+}
+if(x%4==0 && x%100==0 && x%400==0){
+    console.log(true)
+}
+else{
+    console.log(false)
+}
+
+3. Laundry Day
+
+STORE "full" with 0
+
+WHILE "full" < 21
+  ADD "full" by 1
+
+DISPLAY "I'm full!"
+
+JS : 
+
+var display ="'
+var full = 0;
+do {
+    display += full;
+    full++;
+}
+while (full < 21);
+
+4. Periksa Kuku 
+
+STORE "murid" to 1 
+WHILE "murid" <41
+    DISPLAY "Murid" 
+    IF "Murid" kukunya panjang 
+    DISPLAY "dihukum"
+    ELSE 
+    DISPLAY "dipuji"
+
