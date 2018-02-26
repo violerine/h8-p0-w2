@@ -1,7 +1,6 @@
 var tanggal = 1
 var bulan =7
 var tahun =1994
-var hasil =""
 
 
 switch(bulan){
